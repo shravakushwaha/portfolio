@@ -1,0 +1,156 @@
+{% extends 'appportfolio/base.html' %}
+{% load static%}
+{% block content %}
+<section class="py-5 bg-persian-green">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 text-center text-md-right">
+        <img src="{% static 'appportfolio/images/shravan.jpg' %}" alt="..." class="img-thumbnail">
+      </div>
+      <div class="col-sm-8">
+        <h6>Hello, My name is</h6>
+        <h1>Shravan Kushwaha</h1>
+        <p class="font-weight-light">A professional full-stack developer with a good sense of humor. Currently working as a Software Developer at Faarms Solutions. Experienced in leveraging Django and FastAPI frameworks to provide a robust synopsis for high level overviews. Always excited to try out new things and build something great out of nothing.</p>
+        <a href="mailto:shravankushwaha2277@gmail.com" class="btn btn-info bg-crayola">Hire Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5">
+  <div class="container text-center">
+    <h1 class="font-weight-bold">Skills Overview</h1>
+    <p>I have over 5+ years of experience building rich web applications for clients all over the world. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience? Check out my online resume.</p>
+    <div class="row">
+      <!-- Frontend -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0 card-hover-effect">
+          <div class="card-header">
+            <!-- <img src="https://via.placeholder.com/100" alt="..." class="rounded"> -->
+            <i class="fa fa-desktop fa-5x text-charcoal my-4" aria-hidden="true"></i>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Frontend</h5>
+            <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+            <hr>
+            <ul class="fa-ul text-left">
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> ReactJs</li>
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> JavaScript/jQuery</li>
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> HTML/CSS/Bootstrap</li>
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> AJAX</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Backend -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0 card-hover-effect">
+          <div class="card-header">
+            <!-- <img src="https://via.placeholder.com/100" alt="..." class="rounded"> -->
+            <i class="fa fa-gears fa-5x text-charcoal my-4" aria-hidden="true"></i>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Backend</h5>
+            <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+            <hr>
+            <ul class="fa-ul text-left">
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> Python</li>
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> PHP</li>
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> Shell/Bash</li>
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> PostgresSQL/MySQL/MongoDB</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Others -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0 card-hover-effect">
+          <div class="card-header">
+            <!-- <img src="https://via.placeholder.com/100" alt="..." class="rounded"> -->
+            <i class="fa fa-send fa-5x text-charcoal my-4" aria-hidden="true"></i>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Others</h5>
+            <!-- <h6 class="card-price text-center">$0<span class="period">/month</span></h6> -->
+            <hr>
+            <ul class="fa-ul text-left">
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> Django/FastAPI</li>
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> CodeignIter</li>
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> React-Netive</li>
+              <li><i class="fa fa-check text-persian-green" aria-hidden="true"></i> Magento 2</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="py-5 bg-sandy-brown">
+  <div class="container-fluid">
+    <h1 class="font-weight-bold text-center mb-5">Feedbacks</h1>
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active">
+          <div class="row text-left">
+            <div class="col-md-6 m-auto ">
+              <div class="card mb-2">
+                <!-- <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
+                <div class="card-body">
+                  <h4 class="card-title font-weight-bold"><i class="fa fa-comments" aria-hidden="true"></i> Abhay Pandey<a href="https://www.linkedin.com/" class="btn btn-link float-right" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></h4>
+                  <p class="card-text text-muted">"Shravan Kushwaha and I worked together in the same team for close to 1 years. He is one of the skilled candidates I have ever worked with. He is very quick to learn and understand the functionalities and is very adaptive with the tasks assigned to him. Be it Python, PHP, ReactNetive, his deliverables were of very high quality."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item">
+          <div class="row text-left">
+            <div class="col-md-6 m-auto">
+              <div class="card mb-2">
+                <!-- <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
+                <div class="card-body">
+                  <h4 class="card-title font-weight-bold"><i class="fa fa-comments" aria-hidden="true"></i> Sudhakar<a href="https://www.linkedin.com/" class="btn btn-link float-right" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></h4>
+                  <p class="card-text text-muted">"Shravan Kushwaha is a perfect example of a skilled developer. He is focused, reliable and hardworking individual. It was a pleasure working with him for three years at Ribbon communications. He was the one whom I trusted and looked forward for any advice or guidance. His ability to go out of his way to help others has made him stand out. Any organization would be lucky to have him in their team."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item">
+          <div class="row text-left">
+            <div class="col-md-6 m-auto ">
+              <div class="card mb-2">
+                <!-- <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap"> -->
+                <div class="card-body">
+                  <h4 class="card-title font-weight-bold"><i class="fa fa-comments" aria-hidden="true"></i> Dhiraj<a href="https://www.linkedin.com/" class="btn btn-link float-right" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i></a></h4>
+                  <p class="card-text text-muted">"Shravan Kushwaha is a smart team player and he is too eager to learn new technologies. He is always too fast in meeting dead lines and his ability to deal the complex use cases is just amazing. His main positives is his helping nature to the team mates. Am seeing him as a good team leader and successful techie in upcoming years!!!"</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+{% endblock %}
+{% block hireme %}
+<section class="py-5 bg-persian-green">
+  <div class="container text-center">
+    <img class="rounded-circle" src="{% static 'appportfolio/images/120x120.png' %}" alt="">
+    <h1 class="font-weight-bold">Interested in hiring me for your project?</h1>
+    <p>Looking for an experienced full-stack developer to build your web app or ship your software product? To start an initial chat, just drop me an email at <a class="text-sandy-brown" href="mailto:shravankushwaha2277@gmail.com">shravankushwaha2277@gmail.com</a> I'll get back to you.</p>
+    <a class="btn btn-info bg-crayola" href="mailto:shravankushwaha2277@gmail.com">Let's Talk</a>
+  </div>
+</section>
+{% endblock %}
