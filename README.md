@@ -1,0 +1,2 @@
+# portfolio
+I am a seasoned software expert who has developed products for enterprise clients such as Intuit, MUIT, and eCommerce, as well as many venture-backed businesses. I specialize in building applications specific to the business needs of my clients. I have done work in software development, mobile app creation, front-end/back-end web, database/server management, graphic design development.
