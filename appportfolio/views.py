@@ -8,6 +8,7 @@ def home(args):
 def resume(request):
     context = {}
     return render(request, 'appportfolio/resume.html', context)
+
 def experience(request):
     context = {}
     return render(request, 'appportfolio/experience.html', context)
